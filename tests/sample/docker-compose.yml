@@ -1,4 +1,5 @@
-front:
-  build: .
-bb:
-  image: debian:8.1
+
+woot:
+  image: alpine:latest
+  volumes-from:
+    - front
